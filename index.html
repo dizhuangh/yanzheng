@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>验证结果</title>
-    <link rel="stylesheet" href="./CSS/mycss.css">
+    <title>Login</title>
 </head>
 <body>
-    <div class="title">您的进入校园验证结果</div>
-    <div class="photo"><img src="./images/1.jpg" alt=""></div>
-    <div class="myname">黄狄壮</div>
-    <div class="depart">部门：工学院</div>
-    <div class="reason">原因：外出看病要复查</div>
-    <div class="result">您可以进校</div>
-    <div class="right"><img src="./images/right.jpg" alt=""></div>
-    <div class="nowtime">当前时间是：06月25日 18：00</div>
+    <form action="./show.html">
+        <select name="choose" id="choose">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <input type="text" name="R" value="外出看病要复查">
+        <input type="submit" value="get">
+    </form>
 </body>
-<script src="./JS/myjs.js"></script>
 </html>
